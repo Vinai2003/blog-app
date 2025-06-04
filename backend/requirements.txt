@@ -1,0 +1,17 @@
+Django==4.2.7
+djangorestframework==3.14.0
+django-cors-headers==4.3.0
+djangorestframework-simplejwt==5.3.0
+python-dotenv==1.0.0
+# Remove or comment out the line below if you're using SQLite
+# psycopg2-binary==2.9.9
+setuptools==69.0.3
+wheel==0.41.3
+
+Pillow==10.1.0
+pytest==7.4.3
+pytest-django==4.7.0
+
+black==23.11.0
+flake8==6.1.0
+isort==5.12.0

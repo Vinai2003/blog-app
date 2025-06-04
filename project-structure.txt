@@ -1,0 +1,46 @@
+blog-app/
+│
+├── backend/                           # Backend Django application root
+│   ├── blog_project/                  # Django project folder
+│   │   ├── __init__.py
+│   │   ├── asgi.py
+│   │   ├── settings.py                # Project settings
+│   │   ├── urls.py                    # Main URL configuration
+│   │   └── wsgi.py                    # WSGI configuration
+│   │
+│   ├── blogs/                         # Blogs app
+│   │   ├── migrations/
+│   │   │   └── __init__.py
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py                    # App configuration
+│   │   ├── models.py                  # Blog model
+│   │   ├── permissions.py             # Custom permissions
+│   │   ├── serializers.py             # Blog serializers
+│   │   ├── tests.py
+│   │   ├── urls.py                    # Blog URL routes
+│   │   └── views.py                   # Blog views
+│   │
+│   ├── users/                         # Users app
+│   │   ├── migrations/
+│   │   │   └── __init__.py
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py                    # App configuration
+│   │   ├── models.py                  # User profile model
+│   │   ├── serializers.py             # User serializers
+│   │   ├── tests.py
+│   │   ├── urls.py                    # User URL routes
+│   │   └── views.py                   # User views
+│   │
+│   ├── manage.py                      # Django management script
+│   ├── requirements.txt               # Python dependencies
+│   ├── setup_commands.sh              # Setup shell commands
+│   ├── db.sqlite3                     # SQLite database
+│   └── venv/                          # Virtual environment
+│
+├── frontend/                          # Frontend application root (to be developed)
+│   └── ...
+│
+├── .gitignore                         # Git ignore file
+└── README.md                          # Project documentation

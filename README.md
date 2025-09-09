@@ -2,7 +2,7 @@
 
 A full-stack blog platform that enables users to create, read, update, and delete blog posts with a modern, responsive UI.
 
-**Developed by:** pranaykumar2  
+**Developed by:** vinaikumar  
 **Last Updated:** April 2, 2025
 
 ![Blog's Desktop View Application Screenshot](desktop-view.png)
